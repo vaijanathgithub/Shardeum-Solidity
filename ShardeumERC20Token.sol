@@ -9,7 +9,7 @@ contract ShardeumERC20Token is ERC20 {
   
   //Pass Token Name & Symbol while deploying this contract
    constructor(string memory _name, string memory _symbol) ERC20(_name, _symbol){
-       _mint(msg.sender, 1000000 * 10 ** 18);
+       _mint(msg.sender, 10000 * 10 ** 18);
 
    }
 }
